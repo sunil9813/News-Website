@@ -1,0 +1,24 @@
+.singlePopular {
+  overflow: hidden;
+}
+.singlePopular .box {
+  width: 250px;
+  height: 150px;
+  position: relative;
+  cursor: pointer;
+}
+.singlePopular img {
+  width: 210px;
+  height: 100px;
+  border-radius: 5px;
+}
+.singlePopular .text {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  padding: 10px;
+  color: #fff;
+}
+.singlePopular .text h1 {
+  font-size: 13px;
+}

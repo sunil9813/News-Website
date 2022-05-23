@@ -1,0 +1,18 @@
+.heading {
+  margin: 30px 0;
+  background-image: url("../../../../public/images/title_pattern.png");
+  height: 35px;
+  background-position: center;
+}
+.heading h6 {
+  font-weight: 400;
+  background: #fb4c35;
+  color: #fff;
+  height: 35px;
+  width: 130px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+}

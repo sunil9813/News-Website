@@ -1,0 +1,30 @@
+.discover .content {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 30px;
+}
+
+.discover .box {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 4%), 0 0 2px rgb(0 0 0 / 6%), 0 0 1px rgb(0 0 0 / 4%);
+}
+.discover .img {
+  width: 150px;
+  height: 100px;
+}
+.discover img {
+  width: 200px;
+  height: 100px;
+  object-fit: cover;
+}
+.discover h1 {
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+}
+@media screen and (max-width: 768px) {
+  .discover .content {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
